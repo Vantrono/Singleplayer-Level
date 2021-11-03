@@ -1,0 +1,65 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: SplitQwake.map
+Output file: SplitQwake.bsp
+
+---- LoadMapFile ----
+          823 faces
+          138 brushes
+           22 entities
+            6 unique texnames
+          187 texinfo
+
+Opened WAD: C:/QuakeDev/wads/prototype_1_3.wad
+Opened WAD: ../wads/prototype_1_3.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          138 brushes
+          213 planes
+---- CSGFaces ----
+          823 brushfaces
+          983 csgfaces
+          809 mergedfaces
+---- SolidBSP ----
+         1409 split nodes
+          671 solid leafs
+          713 empty leafs
+           26 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         3696 leaffaces
+         3518 nodefaces
+---- Portalize ----
+          739 vis leafs
+          739 vis clusters
+         1939 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-1072 -576 8), no filling performed.
+Leak file written to SplitQwake.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture __TB_empty not found
+---- WriteBSPFile ----
+Wrote SplitQwake.bsp
+          493 planes             9860
+         4256 vertexes          51072
+         1409 nodes             33816
+          154 texinfo            6160
+         3518 faces             70360
+         2887 clipnodes         23096
+          740 leafs             20720
+         3696 marksurfaces       7392
+        14044 surfedges         56176
+         8781 edges             35124
+            6 textures          76388
+              lightdata             0
+              visdata               0
+              entdata            1328
+
+0.151 seconds elapsed
+Peak memory usage: 16022384 (15.3M)

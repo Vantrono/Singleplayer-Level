@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: Test.map
+Output file: Test.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+           90 faces
+           15 brushes
+           11 entities
+            7 unique texnames
+           82 texinfo
+
+Opened WAD: ../wads/id1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           15 brushes
+           52 planes
+---- CSGFaces ----
+           90 brushfaces
+          210 csgfaces
+          186 mergedfaces
+---- SolidBSP ----
+          253 split nodes
+           92 solid leafs
+          162 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          461 leaffaces
+          409 nodefaces
+---- Portalize ----
+          162 vis leafs
+          162 vis clusters
+          383 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-22 -232 78), no filling performed.
+Leak file written to Test.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote Test.bsp
+          140 planes             2800
+          504 vertexes           6048
+          253 nodes              6072
+           69 texinfo            2760
+          409 faces              8180
+          454 clipnodes          3632
+          163 leafs              4564
+          461 marksurfaces        922
+         1632 surfedges          6528
+         1081 edges              4324
+            7 textures          34992
+              lightdata             0
+              visdata               0
+              entdata             825
+
+0.090 seconds elapsed
+Peak memory usage: 2168286 (2.1M)

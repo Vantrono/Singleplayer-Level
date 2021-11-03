@@ -1,0 +1,15 @@
+connect music.colum.edu:27000
+name Dat
+connect music.colum.edu:27800
+name Dat
+name Dat
+ready
+map dm4
+ready
+ready
+
+ready
+'
+connect music.colum.edu:27800
+name dat
+
