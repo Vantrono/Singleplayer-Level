@@ -1,0 +1,7 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: Sleepy.map
+Output file: Swamp.bsp
+
+---- LoadMapFile ----
+************ ERROR ************
+Failed to open Sleepy.map: No such file or directory

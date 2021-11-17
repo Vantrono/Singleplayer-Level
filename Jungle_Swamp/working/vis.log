@@ -1,7 +1,7 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 8 threads
 testlevel = 4
-LoadBSPFile: 'SplitQwake.bsp'
+LoadBSPFile: 'Metrics_and_EnemyTestLevel.bsp'
 BSP is version 29
-LoadPortals: couldn't read SplitQwake.prt
+LoadPortals: couldn't read Metrics_and_EnemyTestLevel.prt
 No vising performed.
