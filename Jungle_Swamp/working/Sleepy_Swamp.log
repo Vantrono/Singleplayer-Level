@@ -4,83 +4,62 @@ Output file: Sleepy_Swamp.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-           36 faces
-            6 brushes
-            3 entities
-            1 unique texnames
-           12 texinfo
+          378 faces
+           46 brushes
+            4 entities
+            4 unique texnames
+          231 texinfo
 
-*** WARNING 00: No wad or _wad key exists in the worldmodel
+Opened WAD: ../wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-            6 brushes
-           19 planes
+           46 brushes
+          260 planes
 ---- CSGFaces ----
-           36 brushfaces
-           46 csgfaces
-           46 mergedfaces
+          378 brushfaces
+          870 csgfaces
+          667 mergedfaces
 ---- SolidBSP ----
-           53 split nodes
-           16 solid leafs
-           38 empty leafs
-            0 water leafs
+          812 split nodes
+          248 solid leafs
+          521 empty leafs
+           44 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          249 leaffaces
-          249 nodefaces
+         1739 leaffaces
+         1610 nodefaces
 ---- Portalize ----
-           38 vis leafs
-           38 vis clusters
-           85 vis portals
+          565 vis leafs
+          565 vis clusters
+         1930 vis portals
 ---- FillOutside ----
-           37 outleafs
----- MergeAll ----
-            6 mergefaces
----- SolidBSP ----
-            6 split nodes
-            6 solid leafs
-            1 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-           38 leaffaces
-           38 nodefaces
----- Portalize ----
-            1 vis leafs
-            1 vis clusters
-            0 vis portals
----- Tjunc ----
-           32 world edges
-          112 edge points
-            8 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (2976 688 -8), no filling performed.
+Leak file written to Sleepy_Swamp.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1558.363 352.000 24.000)
 *** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
-*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote Sleepy_Swamp.bsp
-           40 planes              800
-           44 vertexes            528
-            6 nodes               144
-            6 texinfo             240
-           38 faces               760
-          136 clipnodes          1088
-            2 leafs                56
-           38 marksurfaces         76
-          160 surfedges           640
-           81 edges               324
-            1 textures              8
+          864 planes            17280
+         1843 vertexes          22116
+          812 nodes             19488
+          206 texinfo            8240
+         1610 faces             32200
+         1821 clipnodes         14568
+          566 leafs             15848
+         1739 marksurfaces       3478
+         6299 surfedges         25196
+         4245 edges             16980
+            4 textures          70900
               lightdata             0
               visdata               0
-              entdata             180
+              entdata             155
 
-0.036 seconds elapsed
-Peak memory usage: 649092 (0.6M)
+0.100 seconds elapsed
+Peak memory usage: 9114598 (8.7M)
