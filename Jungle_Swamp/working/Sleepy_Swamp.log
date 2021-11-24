@@ -4,36 +4,36 @@ Output file: Sleepy_Swamp.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          378 faces
+          381 faces
            46 brushes
             4 entities
             4 unique texnames
-          231 texinfo
+          239 texinfo
 
 Opened WAD: ../wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
            46 brushes
-          260 planes
+          259 planes
 ---- CSGFaces ----
-          378 brushfaces
-          870 csgfaces
-          667 mergedfaces
+          381 brushfaces
+          866 csgfaces
+          659 mergedfaces
 ---- SolidBSP ----
-          812 split nodes
-          248 solid leafs
-          521 empty leafs
-           44 water leafs
+          805 split nodes
+          245 solid leafs
+          518 empty leafs
+           43 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1739 leaffaces
-         1610 nodefaces
+         1719 leaffaces
+         1598 nodefaces
 ---- Portalize ----
-          565 vis leafs
-          565 vis clusters
-         1930 vis portals
+          561 vis leafs
+          561 vis clusters
+         1915 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (2976 688 -8), no filling performed.
 Leak file written to Sleepy_Swamp.pts
@@ -46,20 +46,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote Sleepy_Swamp.bsp
-          864 planes            17280
-         1843 vertexes          22116
-          812 nodes             19488
-          206 texinfo            8240
-         1610 faces             32200
-         1821 clipnodes         14568
-          566 leafs             15848
-         1739 marksurfaces       3478
-         6299 surfedges         25196
-         4245 edges             16980
+          855 planes            17100
+         1839 vertexes          22068
+          805 nodes             19320
+          212 texinfo            8480
+         1598 faces             31960
+         1813 clipnodes         14504
+          562 leafs             15736
+         1719 marksurfaces       3438
+         6254 surfedges         25016
+         4227 edges             16908
             4 textures          70900
               lightdata             0
               visdata               0
               entdata             155
 
-0.100 seconds elapsed
-Peak memory usage: 9114598 (8.7M)
+0.096 seconds elapsed
+Peak memory usage: 9050538 (8.6M)
