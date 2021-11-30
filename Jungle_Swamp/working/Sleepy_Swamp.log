@@ -4,62 +4,61 @@ Output file: Sleepy_Swamp.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          381 faces
-           46 brushes
-            4 entities
-            4 unique texnames
-          239 texinfo
+          992 faces
+          144 brushes
+           56 entities
+           10 unique texnames
+          541 texinfo
 
 Opened WAD: ../wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           46 brushes
-          259 planes
+          134 brushes
+          513 planes
 ---- CSGFaces ----
-          381 brushfaces
-          866 csgfaces
-          659 mergedfaces
+          932 brushfaces
+         2563 csgfaces
+         1871 mergedfaces
 ---- SolidBSP ----
-          805 split nodes
-          245 solid leafs
-          518 empty leafs
-           43 water leafs
+         2519 split nodes
+          976 solid leafs
+         1420 empty leafs
+          124 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1719 leaffaces
-         1598 nodefaces
+         5494 leaffaces
+         4901 nodefaces
 ---- Portalize ----
-          561 vis leafs
-          561 vis clusters
-         1915 vis portals
+         1544 vis leafs
+         1544 vis clusters
+         4798 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (2976 688 -8), no filling performed.
+*** WARNING 10: Reached occupant at (208 -432 56), no filling performed.
 Leak file written to Sleepy_Swamp.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1558.363 352.000 24.000)
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+*** WARNING 10: Reached occupant at (208 -432 56), no filling performed.
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 10: Reached occupant at (208 -432 56), no filling performed.
 ---- WriteBSPFile ----
 Wrote Sleepy_Swamp.bsp
-          855 planes            17100
-         1839 vertexes          22068
-          805 nodes             19320
-          212 texinfo            8480
-         1598 faces             31960
-         1813 clipnodes         14504
-          562 leafs             15736
-         1719 marksurfaces       3438
-         6254 surfedges         25016
-         4227 edges             16908
-            4 textures          70900
+         1423 planes            28460
+         5911 vertexes          70932
+         2579 nodes             61896
+          457 texinfo           18280
+         4989 faces             99780
+         4378 clipnodes         35024
+         1605 leafs             44940
+         5582 marksurfaces      11164
+        19740 surfedges         78960
+        13203 edges             52812
+           12 textures         132452
               lightdata             0
               visdata               0
-              entdata             155
+              entdata            4261
 
-0.096 seconds elapsed
-Peak memory usage: 9050538 (8.6M)
+0.227 seconds elapsed
+Peak memory usage: 24023136 (22.9M)
