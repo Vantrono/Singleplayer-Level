@@ -1,0 +1,7 @@
+noclip
+god
+kill
+map sleepyswamp
+noclip
+god
+noclip
