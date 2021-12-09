@@ -1373,7 +1373,7 @@
 // entity 9
 {
 "classname" "monster_shalrath"
-"origin" "2746 1761 368"
+"origin" "2778 1697 320"
 "angle" "315"
 "spawnflags" "1"
 }
@@ -1823,13 +1823,13 @@
 // entity 63
 {
 "classname" "monster_knight"
-"origin" "3552 960 124"
+"origin" "3616 1024 124"
 "angle" "255"
 }
 // entity 64
 {
 "classname" "monster_knight"
-"origin" "3552 1032 124"
+"origin" "3520 1032 124"
 "angle" "261"
 }
 // entity 65
