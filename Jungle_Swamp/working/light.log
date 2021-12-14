@@ -1,33 +1,42 @@
 ---- light / ericw-tools v0.18.1 ----
+extra 4x4 sampling enabled
 Raytracing backend: Embree
-running with 8 threads
-LoadBSPFile: 'SplitQwake.bsp'
+running with 12 threads
+LoadBSPFile: 'Sleepy_Swamp.bsp'
 BSP is version 29
 --- LoadEntities ---
-2 entities read, 0 are lights.
+WARNING: entity at (3008 2616 328) (monster_demon1) has unmatched "target" (deathdoor)
+WARNING: entity at (2136 112 -24) (monster_dog) has empty key/value "targetname" ""
+WARNING: entity at (2136 112 -24) (monster_dog) has unmatched "target" (Dog1)
+WARNING: entity at (2240 112 -24) (monster_dog) has empty key/value "targetname" ""
+WARNING: entity at (2240 112 -24) (monster_dog) has unmatched "target" (Dog1)
+WARNING: brush entity with mins (2065.00 193.00 -47.) maxs (2287.00 207.00 -17.) (trigger_monsterjump) has empty key/value "spawnflags" ""
+WARNING: brush entity with mins (2297.54 1671.91 305) maxs (2470.68 1725.58 415) (func_door) has targetname "monsterdoor" which is not targetted by anything.
+247 entities read, 126 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	0 sky faces
-	7 solid faces
+	726 sky faces
+	14387 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 126 initial lights
+SetupLights: 126 after surface lights
+SetupLights: 126 after jittering
+WARNING: couldn't nudge light in solid at 2982.000000 2732.000000 420.000000
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 126 lights 0 suns in use.
 --- LightWorld ---
-0....1....2....3....4....5....6....7....8..
+0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 309700
 0 switchable light styles (32 max)
-Writing SplitQwake.bsp as BSP version 29
-0.034 seconds elapsed
+Writing Sleepy_Swamp.bsp as BSP version 29
+1.217 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+1.352982 lights tested, 0.772745 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
