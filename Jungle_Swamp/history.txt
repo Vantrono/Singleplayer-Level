@@ -47,3 +47,10 @@ god
 noclip
 god
 noclip
+kill
+noclip
+kill
+god
+KILL
+NOCLIP
+GOD

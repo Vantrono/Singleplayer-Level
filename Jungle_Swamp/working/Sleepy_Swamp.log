@@ -4,40 +4,42 @@ Output file: Sleepy_Swamp.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2928 faces
+         2940 faces
           299 brushes
-          256 entities
+          259 entities
            32 unique texnames
-         1980 texinfo
+         1983 texinfo
 
 Opened WAD: ../wads/prototype_1_3.wad
 Opened WAD: ../wads/Jungle.wad
 Opened WAD: ../wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
+*** WARNING 08: Point (1945.000 1665.000 272.000) off plane by -0.0001
 *** WARNING 22: Healing degenerate edge (0.000037) at (2816.865 1648.000 304.000)
           263 brushes
-         2119 planes
+         2131 planes
 ---- CSGFaces ----
-         2709 brushfaces
-         9859 csgfaces
-         6408 mergedfaces
+         2721 brushfaces
+         9948 csgfaces
+         6452 mergedfaces
 ---- SolidBSP ----
-         9359 split nodes
-         3262 solid leafs
-         5432 empty leafs
-          666 water leafs
+         9484 split nodes
+         3286 solid leafs
+         5525 empty leafs
+          674 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        19397 leaffaces
-        17223 nodefaces
+        19567 leaffaces
+        17367 nodefaces
 ---- Portalize ----
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2470.139 1675.230 221.116)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1273.148 1403.619 336.000)
-         6098 vis leafs
-         6098 vis clusters
-        21327 vis portals
+         6199 vis leafs
+         6199 vis clusters
+        21637 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (108 40 192), no filling performed.
 Leak file written to Sleepy_Swamp.pts
@@ -45,12 +47,14 @@ Leak file written to Sleepy_Swamp.pts
 ---- GrowRegions ----
 Processing hull 1...
 *** WARNING 22: Healing degenerate edge (0.000032) at (2732.928 2659.754 -28.983)
+*** WARNING 08: Point (1945.000 1665.000 272.000) off plane by -0.0001
 *** WARNING 22: Healing degenerate edge (0.000005) at (1152.000 1392.002 304.000)
 *** WARNING 22: Healing degenerate edge (0.000041) at (1152.000 1392.002 304.000)
 *** WARNING 22: Healing degenerate edge (0.000037) at (2816.865 1648.000 304.000)
 *** WARNING 10: Reached occupant at (108 40 192), no filling performed.
 Processing hull 2...
 *** WARNING 22: Healing degenerate edge (0.000032) at (2748.928 2643.754 -60.983)
+*** WARNING 08: Point (1945.000 1665.000 272.000) off plane by -0.0001
 *** WARNING 22: Healing degenerate edge (0.000005) at (1136.000 1376.002 272.000)
 *** WARNING 22: Healing degenerate edge (0.000041) at (1136.000 1376.002 272.000)
 *** WARNING 22: Healing degenerate edge (0.000037) at (2816.865 1648.000 304.000)
@@ -58,20 +62,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote Sleepy_Swamp.bsp
-         6414 planes           128280
-        19767 vertexes         237204
-         9578 nodes            229872
-         1631 texinfo           65240
-        17498 faces            349960
-        17592 clipnodes        140736
-         6318 leafs            176904
-        19672 marksurfaces      39344
-        68200 surfedges        272800
-        45741 edges            182964
-           35 textures         600244
+         6452 planes           129040
+        19981 vertexes         239772
+         9703 nodes            232872
+         1634 texinfo           65360
+        17642 faces            352840
+        17693 clipnodes        141544
+         6419 leafs            179732
+        19842 marksurfaces      39684
+        68754 surfedges        275016
+        46038 edges            184152
+           39 textures         584100
               lightdata             0
               visdata               0
-              entdata           17772
+              entdata           17984
 
-0.836 seconds elapsed
-Peak memory usage: 91377656 (87.1M)
+0.987 seconds elapsed
+Peak memory usage: 91879952 (87.6M)
