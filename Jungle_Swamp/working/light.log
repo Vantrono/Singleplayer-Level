@@ -1,7 +1,7 @@
 ---- light / ericw-tools v0.18.1 ----
 extra 4x4 sampling enabled
 Raytracing backend: Embree
-running with 8 threads
+running with 12 threads
 LoadBSPFile: 'Sleepy_Swamp.bsp'
 BSP is version 29
 --- LoadEntities ---
@@ -17,7 +17,7 @@ WARNING: brush entity with mins (2297.54 1671.91 305) maxs (2470.68 1725.58 415)
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	730 sky faces
-	14639 solid faces
+	15578 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 128 initial lights
@@ -31,12 +31,12 @@ Final count: 128 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 313320
+lightdatasize: 317200
 0 switchable light styles (32 max)
 Writing Sleepy_Swamp.bsp as BSP version 29
-1.300 seconds elapsed
+1.240 seconds elapsed
 
 stats:
-1.343978 lights tested, 0.772010 hits per sample point
+1.332157 lights tested, 0.764208 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

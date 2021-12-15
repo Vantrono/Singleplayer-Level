@@ -54,3 +54,9 @@ god
 KILL
 NOCLIP
 GOD
+god
+noclip
+god
+noclip
+god
+noclip
