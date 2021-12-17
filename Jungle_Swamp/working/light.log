@@ -12,7 +12,7 @@ WARNING: entity at (2240 112 -24) (monster_dog) has empty key/value "targetname"
 WARNING: entity at (2240 112 -24) (monster_dog) has unmatched "target" (Dog1)
 WARNING: brush entity with mins (2065.00 201.00 -47.) maxs (2287.00 207.00 -17.) (trigger_monsterjump) has empty key/value "spawnflags" ""
 WARNING: brush entity with mins (2297.54 1671.91 305) maxs (2470.68 1725.58 415) (func_door) has targetname "monsterdoor" which is not targetted by anything.
-250 entities read, 128 are lights.
+251 entities read, 128 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -34,9 +34,9 @@ Lighting Completed.
 lightdatasize: 317200
 0 switchable light styles (32 max)
 Writing Sleepy_Swamp.bsp as BSP version 29
-1.240 seconds elapsed
+1.310 seconds elapsed
 
 stats:
-1.332157 lights tested, 0.764208 hits per sample point
+1.332182 lights tested, 0.764211 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

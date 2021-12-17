@@ -6,7 +6,7 @@ Output file: Sleepy_Swamp.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
          2940 faces
           299 brushes
-          259 entities
+          260 entities
            32 unique texnames
          1986 texinfo
 
@@ -75,7 +75,7 @@ Wrote Sleepy_Swamp.bsp
            39 textures         584100
               lightdata             0
               visdata               0
-              entdata           17984
+              entdata           18063
 
-0.830 seconds elapsed
-Peak memory usage: 93605490 (89.3M)
+0.930 seconds elapsed
+Peak memory usage: 93605562 (89.3M)

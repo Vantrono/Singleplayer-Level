@@ -1,10 +1,3 @@
-noclip
-god
-kill
-map sleepyswamp
-noclip
-god
-noclip
 god
 noclip
 god
@@ -60,3 +53,11 @@ god
 noclip
 god
 noclip
+god
+noclip
+god
+viewpos
+noclip
+god
+kill
+god
